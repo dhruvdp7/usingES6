@@ -1,0 +1,150 @@
+
+
+.page{
+    display:flex;
+   
+    
+    
+    &_iconbar{
+      
+      background:black;
+      padding-right: 2rem;
+      position:fixed;
+      height:100%;
+     
+      
+      &_icon{
+        padding: 1rem 1rem;
+        font-size:2rem;
+        a{
+          color:white;
+          
+        }
+      }
+    }
+    &_sidebar{
+      background:black;
+       padding-right:5rem;
+    }
+    &_main{
+      
+      
+      display:flex;
+      flex-direction:column;
+      flex-grow:1;
+      
+  
+      &_title{
+        text-align:center;
+        background-image:url("https://png.pngtree.com/thumb_back/fw800/back_pic/04/14/75/49582074207339b.jpg");
+        width:100%;
+        padding:3rem;
+     background-repeat: no-repeat;
+      background-size: cover;
+        
+       }
+      
+      &_gallery{
+          text-align:center;
+        background:white;
+        width:100%;
+        background:#F5F5F5;
+        &_images{
+          display:flex;
+          flex-wrap:wrap;
+          justify-content:center;
+          &_card{
+             width: 290px;
+            height: 370px;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          
+   overflow:hidden;
+            margin-right:20px;
+            margin-bottom:20PX;
+            cursor:pointer;
+            
+            img{
+              width:100%;
+              height:280px;
+            }
+            
+            &_details{
+              text-align:left;
+              padding-left:20px;
+              text-transform: capitalize;
+              h4{
+                 font-weight:bold;
+                  font-family: "Segoe UI",Arial,sans-serif;
+              }
+              
+            }
+            
+            
+          }
+          
+        }
+   
+        
+        .header{
+          padding:3rem;
+        }
+        .footer{
+          padding:3rem;
+        }
+          
+      }
+      &_information{
+        display:flex;
+        flex-wrap:nowrap;
+       
+        &_aboutme{
+          background:#C8C8C8;
+          
+          padding:2rem;
+          flex-wrap:wrap;
+          flex-grow:1;
+          .icons{
+              padding: 1rem;
+    font-size: 2rem;
+    width: 3rem;
+    text-align: center;
+    text-decoration: none;
+            color:#0099FF;
+          }
+        }
+        &_connectme{
+          background:#E0E0E0;
+            flex-grow:1;
+          padding:2rem;
+          
+        }
+      }
+        
+      
+      
+        
+        
+     &_footer{
+        width:100%;
+        text-align:center;
+       background:#F5F5F5;
+       padding:2rem;
+      }
+      
+      
+    }  
+    }
+  .btn{
+    background:#0099FF;
+    border-radius:8px;
+    font-size:1.2em;
+    border: 3px solid rgba(128, 128, 128, 0.5);
+    cursor:pointer;
+    font-family: 'Nunito Sans', sans-serif;
+      padding: 1em 2em;
+    letter-spacing: 1px;
+  }
+  
+    
+  
+  
